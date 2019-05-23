@@ -1,5 +1,5 @@
 from lark import Transformer
-from cool_ast import *
+from parsing.cool_ast import *
 
 class ToCoolASTTransformer(Transformer):
 
